@@ -1,0 +1,14 @@
+name: pycon2019_analyzingcensusdata
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.6
+  - pandas>=0.24.*
+  - altair>=3.0.*
+  - jupyterlab>=0.35.*
+  - pip:
+    - acs_download==0.1.5
+    - census-data-downloader==0.0.4
+    - cenpy==1.0.0
+    - census==0.8.13
+    - us==1.0.0
