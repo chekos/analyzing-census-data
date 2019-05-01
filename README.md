@@ -40,7 +40,7 @@ jupyter lab
 ```
 
 # The structure
-This tutorial will guide you through a typical data analysis project utilizing Census data acquired from IPUMS (https://usa.ipums.org/). It's split into 2 notebooks:
+This tutorial will guide you through a typical data analysis project utilizing Census data acquired from [IPUMS](https://usa.ipums.org/). It's split into 2 notebooks:
 1. [Data Preparation](exercises/notebooks/Project1_Data_Prep.ipynb)
 2. [Data Analysis](exercises/notebooks/Project1_Data_Analysis.ipynb)
 
