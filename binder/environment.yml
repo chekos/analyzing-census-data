@@ -4,7 +4,8 @@ channels:
 dependencies:
   - pandas
   - rise
-  pip:
+  - pip
+  - pip:
     - cenpy
     - census
     - us
