@@ -1,0 +1,13 @@
+name: analyzing-census-data
+channels:
+  - conda-forge
+dependencies:
+  - pandas
+  - rise
+  pip:
+    - cenpy
+    - census
+    - us
+    - census-data-downloader
+    - censusdata
+    - pypums
