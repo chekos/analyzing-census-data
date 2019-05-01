@@ -2,4 +2,4 @@
 # python binder/download_geodata.py
 
 ## remove unnecessary directories
-rm -rf binder/
+# rm -rf binder/
