@@ -68,11 +68,3 @@ TODO:
 
 - add "basics" notebook
 
-- add exercises
-    - grouping: aggregating, melting, unstacking, pivot_tables. 
-- make mybinder-stable branch
-
-Exercises:
-- Project #1: Internet Access by Race/Ethnicity in a certain geography (i.e. X counties, X states, x county in x state)
-- Project #2: Employment-to-Population ratio example
-- Project #3 (requires good internet): We'll use census-data-downloader or censusdata go get a dataset and find Qs
