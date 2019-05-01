@@ -7,7 +7,7 @@ dependencies:
   - altair>=3.0.*
   - jupyterlab>=0.35.*
   - pip:
-    - acs_download==0.1.5
+    - pypums==0.0.1
     - census-data-downloader==0.0.4
     - cenpy==1.0.0
     - census==0.8.13

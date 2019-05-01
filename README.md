@@ -5,35 +5,70 @@
 
 Materials for my Analyzing Census Data with Pandas workshop for PyCon 2019.
 
+# The tutorial
+This tutorial is meant to be followed using mybinder.org but if you choose to download the materials and follow along these are the instructions.
+
 # Getting the materials
 The easiest way to get a copy of this repository is to clone it if you know git
-$ git clone https://github.com/chekos/analyzing-census-data.git
+```bash
+git clone https://github.com/chekos/analyzing-census-data.git
+```
 
 But you can also download it straight from GitHub:
+
 ![GitHub Download](static/github-download.gif)
+
+# Setting up your environment
+Only 2 packages are essential for this workshop:
+1. Pandas
+2. Jupyter (notebooks or lab)
+
+You can either `pip` install them:
+```bash 
+pip install pandas jupyterlab
+```
+or use conda to install them
+```bash
+conda install -c conda-forge pandas jupyterlab
+```
+
+Once you have the materials and `python` packages necessary, head over to the **exercises** directory and launch Jupyter Lab
+```bash
+cd analyzing-census-data
+cd exercises
+jupyter lab
+```
+
+# The structure
+This tutorial will guide you through a typical data analysis project utilizing Census data acquired from IPUMS (https://usa.ipums.org/). It's split into 2 notebooks:
+1. [Data Preparation](exercises/notebooks/Project1_Data_Prep.ipynb)
+2. [Data Analysis](exercises/notebooks/Project1_Data_Analysis.ipynb)
+
+In the first notebook you will:
+1. Work with compressed data with pandas.
+2. Retrieve high-level descriptive analytics of your data.
+3. Drop columns.
+4. Slice data (boolean indexing).
+5. Work with categorical data.
+6. Work with weighted data.
+7. Use python's `pathlib` library, making your code more reproducible across platforms.
+8. Develop a reproducible data prep workflow for future projects.
+
+On top of that, in the second notebook you will:
+1. Aggregate data. 
+2. Learn about `.groupby()` 
+3. Learn about cross-sections `.xs()`
+4. Learn about `pivot_table`s and `crosstabs`
+5. Develop a reproducible data analysis workflow for future projects.
 
 
 
 
 TODO:
-- add installation instructions
+
 - add "basics" notebook
-    - includes imports (pandas pathlib datetime)
-    - directory structure
-    - pandas most common commands
-        - load data
-        - `.info()`, `.shape`, `.head()`
-        - `.sum()`, `.max()`, `.min()` and their behavior (series v dataframes)
-        - dropping columns
-        - dropping rows
-            - conditional indexing
-            - example of keeping households w/ children (slicing by condition on another col)
-        - saving data
+
 - add exercises
-    - pandas basics: dataframe / series, data types / nan, 
-    - read in data: zipped files, regular files. 
-    - subsets: `.loc`, `.iloc`, `df[col]` vs `df[[col]]`
-    - indexing: conditions / boolean stuff, `.query()`, dropping columns / rows, `.filter()`, 
     - grouping: aggregating, melting, unstacking, pivot_tables. 
 - make mybinder-stable branch
 
