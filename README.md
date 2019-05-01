@@ -5,6 +5,16 @@
 
 Materials for my Analyzing Census Data with Pandas workshop for PyCon 2019.
 
+# Getting the materials
+The easiest way to get a copy of this repository is to clone it if you know git
+$ git clone https://github.com/chekos/analyzing-census-data.git
+
+But you can also download it straight from GitHub:
+![GitHub Download](static/github-download.gif)
+
+
+
+
 TODO:
 - add installation instructions
 - add "basics" notebook
