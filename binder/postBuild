@@ -1,5 +1,5 @@
 ## download geodata
-python binder/download_geodata.py
+# python binder/download_geodata.py
 
 ## remove unnecessary directories
 rm -rf binder/
