@@ -1,7 +1,7 @@
-pandas=0.24.*
-altair=3.0.*
+pandas==0.24.*
+altair==3.0.*
 pypums==0.0.1
 census-data-downloader==0.0.4
-cenpy==1.0.0
+cenpy==1.0.0rc2
 census==0.8.13
 us==1.0.0
