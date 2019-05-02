@@ -5,3 +5,11 @@
 #help_b {
     opacity: 0;
 }
+
+.rendered_html code {
+    font-size: 80%;
+}
+
+.reveal blockquote {
+    width: 90%;
+}
