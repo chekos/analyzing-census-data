@@ -2,8 +2,8 @@ name: analyzing-census-data
 channels:
   - conda-forge
 dependencies:
-  - pandas
-  - rise
+  - pandas==0.24.*
+  - rise==5.5.*
   - pip
   - pip:
     - cenpy
